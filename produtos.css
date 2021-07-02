@@ -1,0 +1,99 @@
+header {
+	background: #000080;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+nav a:hover {
+	color: #00FFFF;
+	text-decoration:underline;
+}
+
+nav {
+	position: absolute;
+	top:110px;
+	right:0px;
+}
+nav li {
+	display:inline;
+	margin:  0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	border-color:#000080 ;
+	border-width:2px ;
+	border-style: solid;
+	border-radius: 40px;
+}
+
+.produtos1 li {
+	display: inline-block;
+	text-align: center;
+	width: 30%
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	border-color:#000080 ;
+	border-width:2px ;
+	border-style: solid;
+	border-radius: 40px
+}
+
+.produtos li:hover {
+	border-color: #00FF00;
+}
+
+.produtos li:active {
+	border-color: #8FBC8F;
+}
+
+.produtos li:hover h2{
+   font-size: 35px;
+}
+.produtos h2 {
+	font-size : 30px;
+	font-weight: bold;
+}
+
+.produto-descriçao {
+	font-size: 18px;
+}
+
+
+footer {
+	color: #FFFFFF;
+	text-align: center;
+	background: url("fundoazul.jpg");
+    padding: 40px 0;
+}
+
+.qualidades {
+	font-size: 13px;
+	margin: 20px 0 0;
+
+}
